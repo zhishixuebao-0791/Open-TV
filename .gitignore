@@ -1,0 +1,8 @@
+# 当前只发布文档，防止误暂存候选源码、源表或私人产物。
+*
+!/.gitignore
+!/README.md
+!/DISCLAIMER.md
+!/LICENSE-DOCUMENTATION.md
+!/docs/
+!/docs/**
