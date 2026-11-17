@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="0dp"
+    android:paddingTop="0dp"
+    android:paddingEnd="0dp"
+    android:paddingBottom="0dp">
+
+    <TextView
+        android:id="@+id/tvStatusTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:shadowColor="#99000000"
+        android:shadowDx="0.8"
+        android:shadowDy="0.8"
+        android:shadowRadius="1.6"
+        android:singleLine="true"
+        android:text="00:00:00"
+        android:textColor="#EDEFF5"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/tvStatusNetworkSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:shadowColor="#99000000"
+        android:shadowDx="0.8"
+        android:shadowDy="0.8"
+        android:shadowRadius="1.6"
+        android:singleLine="true"
+        android:text="0 KB/s"
+        android:textColor="#EDEFF5"
+        android:textSize="11sp" />
+
+</LinearLayout>

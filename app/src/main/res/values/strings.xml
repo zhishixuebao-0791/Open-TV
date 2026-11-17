@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_settings">应用设置</string>
+    <string name="app_name">Open TV</string>
+
+    <string name="toast_reload_channel">为您重新加载频道</string>
+    <string name="unknown">未知</string>
+    <string name="channel_list">频道列表</string>
+    <string name="max_loading_time">最长加载时间</string>
+    <string name="auto_start">开机自启</string>
+    <string name="reverse_channel_direction">调台取反</string>
+    <string name="auto_start_permission_title">允许开机自启</string>
+    <string name="auto_start_permission_message">开机后直接进入 Open TV，需要先在系统设置中允许“在其他应用上层显示”。授权后返回，开机自启将自动开启。</string>
+    <string name="auto_start_permission_settings">前往授权</string>
+    <string name="auto_start_enabled">开机自启已开启</string>
+    <string name="auto_start_permission_denied">未获得所需授权，开机自启保持关闭</string>
+    <string name="auto_start_settings_unavailable">系统未提供授权页面，开机自启暂未开启</string>
+    <string name="refresh_channel_list">刷新频道列表</string>
+    <string name="tbs_debug">Tbs 调试界面</string>
+    <string name="web_view_touchable">操作 WebView</string>
+    <string name="aspect_ratio">画面比例</string>
+    <string name="video_size">画面尺寸</string>
+    <string name="video_source">视频源</string>
+    <string name="current_time">当前时间</string>
+    <string name="current_network_speed">当前网速</string>
+
+    <string name="on">开</string>
+    <string name="off">关</string>
+
+    <string name="app_meta_format">App: %1$s | 内核: WebView + ExoPlayer</string>
+    <string name="back_hint_text">再按一次返回键退出应用</string>
+    <string name="source_position">线路 %1$d / %2$d</string>
+    <string name="channel_settings">频道设置</string>
+    <string name="subscription_address">订阅地址</string>
+    <string name="backup_address">备用地址</string>
+    <string name="save_address">保存</string>
+    <string name="exit_confirm_message">你确定要退出“Open TV”吗？</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+
+    <string-array name="loading_time_text">
+        <item>10 秒</item>
+        <item>15 秒</item>
+        <item>20 秒</item>
+        <item>25 秒</item>
+        <item>30 秒</item>
+    </string-array>
+
+    <integer-array name="loading_time_value">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
+</resources>
+
